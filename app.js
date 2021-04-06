@@ -15,6 +15,7 @@ app.use(
   })
 );
 
+//change this to your preference.
 mongoose.connect("mongodb://localhost:27017/userdataDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -31,7 +32,6 @@ const userSchema = {
 const User = mongoose.model("User", userSchema);
 
 ////////////////Request Targeting all users///////////////////////////////////////
-
 
 app.route("/api/:api_key/users")
   //Get all users.
