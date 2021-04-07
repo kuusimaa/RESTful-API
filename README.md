@@ -1,6 +1,6 @@
 # RESTful-API
 
-Basic RESTful-API for mongoDB.
+Basic RESTful-API using node.js and mongoDB.
 
 ## Built With
 
